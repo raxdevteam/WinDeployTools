@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Windows Kits\10\App Certification Kit
+Add the above to system path variable
+_>signtool sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /f "RajeevCx.pfx" /p r9820112511r <app.exe>
+_>signtool.exe verify /pa /v <app.exe>
+
+_>signtool.exe sign /t http://timestamp.digicert.com /f rajeev.pfx /p r9820112511r Txt2Excel.exe
+_>signtool verify /pa /v Txt2Excel.exe

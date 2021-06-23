@@ -1,0 +1,38 @@
+REQ. DLL
+	libgcc_s_seh-1.dll
+	libstdc++-6.dll
+	libwinpthread-1.dll
+	Qt5Core.dll
+	Qt5Gui.dll
+	Qt5Location.dll
+	Qt5Network.dll
+	Qt5Positioning.dll
+	Qt5Qml.dll
+	Qt5Quick.dll
+	Qt5QuickControls2.dll
+	Qt5Sql.dll
+	Qt5Widgets.dll
+
+plugins
+	bearer			1
+	geoservices		6
+	iconengines		1
+	imageformats		9
+	platforminputcontexts   1
+	platforms		4
+	platformthemes		1
+	position		2
+	styles			1
+
+qml
+	QtGraphicalEffects	29
+	QtLocation		3
+	QtPositioning		3
+	QtQml			7
+	QtQuick			6
+	QtQuick.2		3
+
+translation
+	qtbase_en.qm
+	qtdeclarative_en.qm
+	qtserialport_en.qm

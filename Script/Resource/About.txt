@@ -1,0 +1,12 @@
+		-------------------------------------------------
+	     		MULTI EMITTER RADAR SIMULATION (MERS)
+		-------------------------------------------------
+	
+	The MERS application simulate the different types of threats such as Airborne emitter,
+Ground emitter and Moving ground emitter and based on their positions its  calculates Angle of
+Arrival (A.o.A) in degrees, Azimuth in degress, Range in kilometers and Elevation in meters using
+DF algorithm. 
+	This application uses open source simualtor  FlightGear as a backend to provide 
+realtime aircraft details such as Latitude, Longitude, Altitude, Roll, Pitch, Yaw, etc. 
+
+		-------------------------------------------------
